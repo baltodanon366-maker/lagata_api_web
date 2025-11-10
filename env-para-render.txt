@@ -1,0 +1,12 @@
+DIRECT_URL=postgresql://postgres:licoreria_la_gataFG45@db.nkwzqgnsvzqnbnpvzbrc.supabase.co:5432/postgres
+SUPABASE_DW_URL=postgresql://postgres:licoreria_la_gataDWHOUSE@db.uzjryopokdguuoiniakd.supabase.co:5432/postgres
+JWT_SECRET=YourSuperSecretKeyForJWTTokenGenerationMustBeAtLeast32CharactersLong
+JWT_ISSUER=LicoreriaAPI
+JWT_AUDIENCE=LicoreriaAPIUsers
+JWT_EXPIRATION=3600
+NODE_ENV=production
+PORT=10000
+CORS_ORIGIN=*
+THROTTLE_TTL=60000
+THROTTLE_LIMIT=100
+
