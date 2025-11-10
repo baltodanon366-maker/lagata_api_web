@@ -1,6 +1,6 @@
-# 🔐 Variables de Entorno para Vercel
+# 🔐 Variables de Entorno para Render/Vercel
 
-Copia y pega estas variables en Vercel → Settings → Environment Variables
+Copia y pega estas variables en Render → Environment Variables (o Vercel → Settings → Environment Variables)
 
 ## 📋 Lista Completa de Variables
 
@@ -25,9 +25,11 @@ JWT_EXPIRATION=3600
 ### App Configuration
 ```
 NODE_ENV=production
-PORT=3000
+PORT=10000
 CORS_ORIGIN=*
 ```
+
+**Nota:** Render usa el puerto 10000 por defecto. Si usas Vercel, usa `PORT=3000`.
 
 ### Rate Limiting
 ```
